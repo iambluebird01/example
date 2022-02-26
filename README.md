@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## **`Facebook-Clone`**
 
-## Getting Started
+![](https://img.shields.io/github/languages/code-size/iambluebird01/facebook-clone?style=flat-square)
+![](https://img.shields.io/github/last-commit/iambluebird01/facebook-clone?style=flat-square)
+![](https://img.shields.io/github/languages/top/iambluebird01/facebook-clone?style=flat-square)
+![](https://img.shields.io/github/license/iambluebird01/facebook-clone?style=flat-square)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### 🚥 About
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Building facebook application clone using **`React.js`** and **`Firebase`**. This build covers the core functionality (`uploading normal text & images`) of original facebook application. The best thing of the build is, it is fully responsive and looks better in most of the devices.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+🔌 **Live Website Link**: <a href=""></a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 🛠 Tech used
 
-## Learn More
+- React.js
+- Next.js
+- TailwindCSS
+- React hooks
+- Hero icons
+- Firebase
+  - Facebook authentication
+  - Firestore
+  - Storage
+  - Hosting
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⛔ Pre-requisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Install **`NODE`** (if not already installed)
+2. Setup **`FIREBASE`** project and get the api config values. Checkout <a href="https://firebase.google.com/docs/web/setup?authuser=0">how to setup firebase project?</a>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ✅ How to make use of this build?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/iambluebird01/facebook-clone.git
+   ```
+2. Navigate to the cloned directory
+   ```bash
+   cd path/to/cloned/directory
+   ```
+3. Create .env file with following properties and paste firebase config values respectively
+   ```bash
+   REACT_APP_API_KEY=....................................
+   REACT_APP_AUTH_DOMAIN=................................
+   REACT_APP_PROJECT_ID=.................................
+   REACT_APP_STORAGE_BUCKET=.............................
+   REACT_APP_MESSAGING_SENDER_ID=........................
+   REACT_APP_APP_ID=.....................................
+   ```
+4. Install node packages
+   ```bash
+   npm install
+   ```
+5. Start the development server
+   ```bash
+   npm start
+   ```
+6. Happy learning 😊
